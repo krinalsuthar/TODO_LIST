@@ -9,7 +9,7 @@ function addTask() {
     li.innerHTML = inputbox.value;
     list.appendChild(li);
     let span = document.createElement("span");
-    span.innerHTML = "\u00d7";
+    span.innerHTML = "&#x2716;";
     li.appendChild(span);
   }
   inputbox.value = "";
